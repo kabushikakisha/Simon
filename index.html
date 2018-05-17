@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id='game'>
+  
+  <div id='G'>
+  </div>
+  <div id='R'>
+  </div>
+    
+  <div id='console'>
+       <div class='game-label'>
+      <h3>SIMON&reg;</h3>
+    </div>
+    <span id='buttons'>
+      <a id='repeat' href='#' class='yButton'>&nbsp;</a>
+      <a id='start' href='#' class='rButton'>&nbsp;</a>
+      <a id='strict' href='#' class=yButton>&nbsp;</a>
+    </span>
+    <span id='btn-labels'>
+      <p id=lbl-repeat>repeat</p>
+      <p id=lbl-start>start</p>
+      <p id=lbl-strict>strict</p>
+    </span>
+    <div id='count'>
+      <p id='countp'>00</p>
+    </div>
+  </div>
+  <div id='Y'>
+  </div>
+  <div id='B'>
+  </div>
+</div>
+<audio id='gSound' src='https://s3.amazonaws.com/freecodecamp/simonSound4.mp3'></audio>
+<audio id='rSound' src='https://s3.amazonaws.com/freecodecamp/simonSound3.mp3'></audio>
+<audio id='ySound' src='https://s3.amazonaws.com/freecodecamp/simonSound2.mp3'></audio>
+<audio id='bSound' src='https://s3.amazonaws.com/freecodecamp/simonSound1.mp3'></audio>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
